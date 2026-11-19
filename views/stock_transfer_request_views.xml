@@ -1,0 +1,117 @@
+<odoo>
+    <record id="view_transfer_request_list" model="ir.ui.view">
+        <field name="name">ff.stock.transfer.request.list</field>
+        <field name="model">ff.stock.transfer.request</field>
+        <field name="arch" type="xml">
+            <list string="Stock Transfer Requests" decoration-success="state == 'completed'" decoration-warning="state in ('submitted', 'awaiting_receipt', 'partially_received')" decoration-muted="state == 'cancelled'">
+                <field name="name"/>
+                <field name="request_date"/>
+                <field name="user_id"/>
+                <field name="source_warehouse_id"/>
+                <field name="destination_warehouse_id"/>
+                <field name="total_requested_qty" sum="Requested"/>
+                <field name="total_shipped_qty" sum="Shipped"/>
+                <field name="total_received_qty" sum="Received"/>
+                <field name="pending_ship_qty"/>
+                <field name="pending_receipt_qty"/>
+                <field name="state" widget="badge"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_transfer_request_form" model="ir.ui.view">
+        <field name="name">ff.stock.transfer.request.form</field>
+        <field name="model">ff.stock.transfer.request</field>
+        <field name="arch" type="xml">
+            <form string="Stock Transfer Request">
+                <header>
+                    <button name="action_submit" type="object" string="Submit Request" class="btn-primary" invisible="state != 'draft'"/>
+                    <button name="action_prepare_ship" type="object" string="Prepare &amp; Ship" class="btn-primary" invisible="state not in ('submitted', 'partially_shipped')" groups="ff_stock_transfer_request.group_transfer_request_officer"/>
+                    <button name="action_confirm_receipt" type="object" string="Confirm Receipt" class="btn-primary" invisible="state not in ('awaiting_receipt', 'partially_received')" groups="ff_stock_transfer_request.group_transfer_request_receiver"/>
+                    <button name="action_reorder" type="object" string="Reorder" class="btn-secondary" invisible="state != 'completed'" groups="ff_stock_transfer_request.group_transfer_request_user,ff_stock_transfer_request.group_transfer_request_officer,ff_stock_transfer_request.group_transfer_request_manager"/>
+                    <button name="action_cancel" type="object" string="Cancel" invisible="state in ('completed', 'cancelled')" groups="ff_stock_transfer_request.group_transfer_request_manager" confirm="Cancel this request?"/>
+                    <field name="state" widget="statusbar" statusbar_visible="draft,submitted,partially_shipped,awaiting_receipt,partially_received,completed"/>
+                </header>
+                <sheet>
+                    <div class="oe_button_box" name="button_box">
+                        <button name="action_view_pickings" type="object" class="oe_stat_button" icon="fa-exchange">
+                            <field name="picking_count" widget="statinfo" string="Stock Operations"/>
+                        </button>
+                    </div>
+                    <div class="oe_title"><h1><field name="name" readonly="1"/></h1></div>
+                    <group>
+                        <field name="reorder_enabled" invisible="state != 'draft'"/>
+                        <field name="reorder_interval_days" invisible="not reorder_enabled or state != 'draft'"/>
+                        <field name="next_reorder_date" invisible="not reorder_enabled" readonly="1"/>
+                        <field name="reorder_parent_id" invisible="not reorder_parent_id" readonly="1"/>
+                    </group>
+                    <group>
+                        <group>
+                            <field name="user_id"/>
+                            <field name="company_id"/>
+                            <field name="request_date"/>
+                            <field name="requested_delivery_date"/>
+                        </group>
+                        <group>
+                            <field name="source_warehouse_id"/>
+                            <field name="destination_warehouse_id" readonly="state != 'draft'"/>
+                            <field name="total_requested_qty"/>
+                            <field name="pending_ship_qty"/>
+                            <field name="pending_receipt_qty"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Products">
+                            <field name="line_ids" readonly="state != 'draft'">
+                                <list editable="bottom">
+                                    <field name="product_id"/>
+                                    <field name="uom_id"/>
+                                    <field name="requested_qty"/>
+                                    <field name="shipped_qty" readonly="1"/>
+                                    <field name="received_qty" readonly="1"/>
+                                    <field name="remaining_to_ship" readonly="1"/>
+                                    <field name="awaiting_receipt" readonly="1"/>
+                                </list>
+                            </field>
+                        </page>
+                        <page string="Stock Operations">
+                            <field name="picking_ids" readonly="1">
+                                <list>
+                                    <field name="name"/>
+                                    <field name="transfer_request_stage"/>
+                                    <field name="picking_type_id"/>
+                                    <field name="state" widget="badge"/>
+                                    <field name="date_done"/>
+                                </list>
+                            </field>
+                        </page>
+                    </notebook>
+                    <chatter/>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_transfer_request_search" model="ir.ui.view">
+        <field name="name">ff.stock.transfer.request.search</field>
+        <field name="model">ff.stock.transfer.request</field>
+        <field name="arch" type="xml">
+            <search string="Stock Transfer Requests">
+                <field name="name"/><field name="user_id"/><field name="source_warehouse_id"/><field name="destination_warehouse_id"/>
+                <filter name="my_requests" string="My Requests" domain="[('user_id', '=', uid)]"/>
+                <filter name="pending_action" string="Requests Requiring My Action" domain="[('state', 'in', ('submitted', 'partially_shipped', 'awaiting_receipt', 'partially_received'))]"/>
+                <filter name="open" string="Open" domain="[('state', 'not in', ('completed', 'cancelled'))]"/>
+                <group><filter name="state" string="Status" context="{'group_by': 'state'}"/><filter name="destination" string="Destination Warehouse" context="{'group_by': 'destination_warehouse_id'}"/></group>
+            </search>
+        </field>
+    </record>
+
+    <record id="action_transfer_request" model="ir.actions.act_window">
+        <field name="name">Stock Transfer Requests</field>
+        <field name="res_model">ff.stock.transfer.request</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="view_transfer_request_search"/>
+        <field name="context">{'search_default_my_requests': 1}</field>
+    </record>
+    <menuitem id="menu_transfer_request_root" name="Requests" action="action_transfer_request" sequence="70" groups="ff_stock_transfer_request.group_transfer_request_user,ff_stock_transfer_request.group_transfer_request_officer,ff_stock_transfer_request.group_transfer_request_receiver,ff_stock_transfer_request.group_transfer_request_manager"/>
+</odoo>

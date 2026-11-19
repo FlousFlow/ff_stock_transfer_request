@@ -1,0 +1,32 @@
+<odoo>
+    <record id="module_category_ff_stock_transfer_request" model="ir.module.category">
+        <field name="name">Stock Transfer Requests</field>
+        <field name="description">Controlled warehouse transfer request workflow</field>
+        <field name="sequence">35</field>
+    </record>
+
+    <record id="res_groups_privilege_ff_stock_transfer_request" model="res.groups.privilege">
+        <field name="name">Stock Transfer Requests</field>
+        <field name="description">Controlled warehouse transfer request workflow</field>
+        <field name="category_id" ref="module_category_ff_stock_transfer_request"/>
+        <field name="sequence">35</field>
+    </record>
+
+    <record id="group_transfer_request_user" model="res.groups">
+        <field name="name">Transfer Request User</field>
+        <field name="privilege_id" ref="res_groups_privilege_ff_stock_transfer_request"/>
+    </record>
+    <record id="group_transfer_request_officer" model="res.groups">
+        <field name="name">Transfer Request Warehouse Officer</field>
+        <field name="privilege_id" ref="res_groups_privilege_ff_stock_transfer_request"/>
+    </record>
+    <record id="group_transfer_request_receiver" model="res.groups">
+        <field name="name">Transfer Request Receiving User</field>
+        <field name="privilege_id" ref="res_groups_privilege_ff_stock_transfer_request"/>
+    </record>
+    <record id="group_transfer_request_manager" model="res.groups">
+        <field name="name">Transfer Request Warehouse Manager</field>
+        <field name="privilege_id" ref="res_groups_privilege_ff_stock_transfer_request"/>
+    </record>
+
+</odoo>

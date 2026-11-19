@@ -1,0 +1,57 @@
+<div style="font-family:Arial,Helvetica,sans-serif; color:#243447; max-width:1100px; margin:0 auto; line-height:1.6;">
+  <img src="banner.jpg" alt="FF Stock Transfer Request" style="width:100%; display:block; border-radius:12px; margin-bottom:28px;"/>
+
+  <section style="text-align:center; padding:0 20px 18px;">
+    <h1 style="color:#173b67; margin-bottom:8px;">FF Stock Transfer Request</h1>
+    <p style="font-size:18px; margin-top:0;">Controlled inter-warehouse replenishment requests for Odoo 20 Community</p>
+    <p dir="rtl" style="font-size:17px;">دورة واضحة لطلب النقل من الفرع، التجهيز من المخزن الرئيسي، ثم الشحن والاستلام الفعلي.</p>
+  </section>
+
+  <div style="display:flex; flex-wrap:wrap; gap:16px; margin:18px 0;">
+    <div style="flex:1; min-width:240px; background:#eef8f5; padding:18px; border-radius:10px;">
+      <h3 style="margin-top:0; color:#16806b;">Request</h3>
+      <p>Create a request with products, quantities, source warehouse, and destination warehouse.</p>
+    </div>
+    <div style="flex:1; min-width:240px; background:#eef5fb; padding:18px; border-radius:10px;">
+      <h3 style="margin-top:0; color:#1769aa;">Ship</h3>
+      <p>Warehouse officers prepare a native Odoo shipment and record the actual shipped quantity.</p>
+    </div>
+    <div style="flex:1; min-width:240px; background:#f0faf0; padding:18px; border-radius:10px;">
+      <h3 style="margin-top:0; color:#3c8d40;">Receive</h3>
+      <p>Receiving users confirm the real received quantity and keep the request traceable.</p>
+    </div>
+  </div>
+
+  <h2 style="color:#173b67; border-bottom:2px solid #dce8f2; padding-bottom:8px;">Key capabilities</h2>
+  <ul>
+    <li>Native Odoo pickings, moves, reservations, transit locations, returns, and traceability.</li>
+    <li>Actual shipped/received quantities and net receipt after returns.</li>
+    <li>Stock Operations smart tab showing all linked shipment, receipt, and return pickings.</li>
+    <li>Manual and scheduled reorder creation with draft-only safety.</li>
+    <li>Dedicated module roles separated from standard Inventory permissions.</li>
+    <li>Company and warehouse authorization enforced server-side.</li>
+    <li>Arabic translations included for workflow, menus, statuses, fields, and security roles.</li>
+  </ul>
+
+  <h2 style="color:#173b67; border-bottom:2px solid #dce8f2; padding-bottom:8px;">Installation</h2>
+  <ol>
+    <li>Install Odoo 20 Community with <code>stock</code>, <code>sale_stock</code>, and <code>mail</code>.</li>
+    <li>Install <strong>Stock Transfer Requests</strong> from Apps.</li>
+    <li>Configure the main source warehouse in Inventory settings.</li>
+    <li>Set the user's Default Warehouse and assign the appropriate transfer-request role.</li>
+  </ol>
+
+  <h2 style="color:#173b67; border-bottom:2px solid #dce8f2; padding-bottom:8px;">Security model</h2>
+  <p>Transfer-request roles are independent from Odoo's standard Inventory roles. The workflow exposes only the controlled request operations needed by each role; it does not grant unrestricted access to Inventory menus or arbitrary stock operations.</p>
+
+  <div dir="rtl" style="background:#f7f9fb; padding:18px; border-radius:10px; margin-top:24px;">
+    <h2 style="color:#173b67; margin-top:0;">ملاحظات مهمة</h2>
+    <ul>
+      <li>إعادة الطلب تنشئ طلبًا مسودة للمراجعة ولا تشحن المخزون تلقائيًا.</li>
+      <li>الأصناف التي تحتاج أرقام تشغيلات أو أرقامًا تسلسلية تُستكمل من شاشة التحويل القياسية في أودو.</li>
+      <li>يجب اختبار المستودعات والصلاحيات على قاعدة تجريبية قبل التشغيل الفعلي.</li>
+    </ul>
+  </div>
+
+  <p style="text-align:center; color:#657786; margin-top:30px;">Odoo 20 Community · LGPL-3 · Flous Flow · <a href="https://flousflow.com">flousflow.com</a></p>
+</div>

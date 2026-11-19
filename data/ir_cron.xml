@@ -1,0 +1,11 @@
+<odoo>
+    <record id="ir_cron_create_automatic_stock_transfer_reorders" model="ir.cron">
+        <field name="name">Create Automatic Stock Transfer Reorders</field>
+        <field name="model_id" ref="model_ff_stock_transfer_request"/>
+        <field name="state">code</field>
+        <field name="code">model._cron_create_automatic_reorders()</field>
+        <field name="interval_number">1</field>
+        <field name="interval_type">days</field>
+        <field name="active">True</field>
+    </record>
+</odoo>

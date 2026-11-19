@@ -1,0 +1,19 @@
+<odoo>
+    <record id="res_config_settings_view_form_stock_transfer_request" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.stock.transfer.request</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="stock.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//app[@name='stock']" position="inside">
+                <block title="Stock Transfer Requests" name="ff_stock_transfer_request_settings">
+                    <setting string="Main Source Warehouse" help="Default warehouse that prepares branch transfer requests.">
+                        <field name="ff_main_warehouse_id"/>
+                    </setting>
+                    <setting string="Transit Location" help="Transit location used between source and destination warehouses. Leave empty to use the company internal transit location.">
+                        <field name="ff_transit_location_id"/>
+                    </setting>
+                </block>
+            </xpath>
+        </field>
+    </record>
+</odoo>

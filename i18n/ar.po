@@ -1,0 +1,1073 @@
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo 20.0\n"
+"Language: ar\n"
+"PO-Revision-Date: 2026-11-19 18:00+0200\n"
+"Last-Translator: Flous Flow\n"
+"Language-Team: Arabic\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+#: model:ir.actions.act_window,name:ff_stock_transfer_request.action_transfer_request
+#: model:ir.module.category,name:ff_stock_transfer_request.module_category_ff_stock_transfer_request
+#: model:res.groups.privilege,name:ff_stock_transfer_request.res_groups_privilege_ff_stock_transfer_request
+msgid "Stock Transfer Requests"
+msgstr "طلبات تحويل المخزون"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+#: model:ir.ui.menu,name:ff_stock_transfer_request.menu_transfer_request_root
+msgid "Requests"
+msgstr "الطلبات"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "Submit Request"
+msgstr "تقديم الطلب"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "Prepare & Ship"
+msgstr "تجهيز وإرسال"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "Confirm Receipt"
+msgstr "تأكيد الاستلام"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "Main Source Warehouse"
+msgstr "المخزن الرئيسي للمصدر"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "Transfer Transit Location"
+msgstr "موقع العبور للتحويل"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+#: model:ir.model.fields.selection,name:ff_stock_transfer_request.selection__ff_stock_transfer_request__state__draft
+msgid "Draft"
+msgstr "مسودة"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+#: model:ir.model.fields.selection,name:ff_stock_transfer_request.selection__ff_stock_transfer_request__state__submitted
+msgid "Submitted"
+msgstr "مُقدّم"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+#: model:ir.model.fields.selection,name:ff_stock_transfer_request.selection__ff_stock_transfer_request__state__partially_shipped
+msgid "Partially Shipped"
+msgstr "مشحون جزئياً"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+#: model:ir.model.fields.selection,name:ff_stock_transfer_request.selection__ff_stock_transfer_request__state__awaiting_receipt
+msgid "Shipped / Awaiting Receipt"
+msgstr "تم الشحن / في انتظار الاستلام"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+#: model:ir.model.fields.selection,name:ff_stock_transfer_request.selection__ff_stock_transfer_request__state__partially_received
+msgid "Partially Received"
+msgstr "مُستلم جزئياً"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+#: model:ir.model.fields.selection,name:ff_stock_transfer_request.selection__ff_stock_transfer_request__state__completed
+msgid "Completed"
+msgstr "مكتمل"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+#: model:ir.model.fields.selection,name:ff_stock_transfer_request.selection__ff_stock_transfer_request__state__cancelled
+msgid "Cancelled"
+msgstr "ملغى"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+#: model:ir.model.fields,field_description:ff_stock_transfer_request.field_ff_stock_transfer_request__total_requested_qty
+msgid "Requested Quantity"
+msgstr "الكمية المطلوبة"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+#: model:ir.model.fields,field_description:ff_stock_transfer_request.field_ff_stock_transfer_request__total_shipped_qty
+msgid "Shipped Quantity"
+msgstr "الكمية المشحونة"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+#: model:ir.model.fields,field_description:ff_stock_transfer_request.field_ff_stock_transfer_request__total_received_qty
+msgid "Received Quantity"
+msgstr "الكمية المستلمة"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+#: model:ir.model.fields,field_description:ff_stock_transfer_request.field_ff_stock_transfer_request_line__awaiting_receipt
+msgid "Awaiting Receipt"
+msgstr "في انتظار الاستلام"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "Stock Transfer Request"
+msgstr "طلب تحويل مخزون"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+#: model:ir.model.fields,field_description:ff_stock_transfer_request.field_ff_stock_transfer_request__name
+msgid "Request Reference"
+msgstr "مرجع الطلب"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+#: model:ir.model.fields,field_description:ff_stock_transfer_request.field_ff_stock_transfer_request__user_id
+msgid "Requesting User"
+msgstr "مستخدم الطلب"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+#: model:ir.model.fields,field_description:ff_stock_transfer_request.field_ff_stock_transfer_request__source_warehouse_id
+msgid "Source Warehouse"
+msgstr "مخزن المصدر"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+#: model:ir.model.fields,field_description:ff_stock_transfer_request.field_ff_stock_transfer_request__request_date
+msgid "Request Date"
+msgstr "تاريخ الطلب"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+#: model:ir.model.fields,field_description:ff_stock_transfer_request.field_ff_stock_transfer_request__requested_delivery_date
+msgid "Requested Delivery Date"
+msgstr "تاريخ التسليم المطلوب"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+#: model:ir.model.fields,field_description:ff_stock_transfer_request.field_ff_stock_transfer_request__line_ids
+msgid "Products"
+msgstr "المنتجات"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+#: model:ir.model.fields,field_description:ff_stock_transfer_request.field_ff_stock_transfer_request__picking_ids
+msgid "Stock Operations"
+msgstr "عمليات المخزون"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+#: model:ir.model.fields,field_description:ff_stock_transfer_request.field_ff_stock_transfer_request__pending_ship_qty
+msgid "Pending Shipment"
+msgstr "الشحن المعلق"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+#: model:ir.model.fields,field_description:ff_stock_transfer_request.field_ff_stock_transfer_request__pending_receipt_qty
+msgid "Pending Receipt"
+msgstr "الاستلام المعلق"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+#: model:ir.model.fields,field_description:ff_stock_transfer_request.field_ff_stock_transfer_request__has_discrepancy
+msgid "Has Discrepancy"
+msgstr "يوجد اختلاف"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+#: model:ir.model.fields,field_description:ff_stock_transfer_request.field_ff_stock_transfer_request_line__product_id
+#: model:ir.model.fields,field_description:ff_stock_transfer_request.field_ff_stock_transfer_ship_wizard_line__product_id
+#: model:ir.model.fields,field_description:ff_stock_transfer_request.field_ff_stock_transfer_receive_wizard_line__product_id
+msgid "Product"
+msgstr "المنتج"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+#: model:ir.model.fields,field_description:ff_stock_transfer_request.field_ff_stock_transfer_request_line__uom_id
+msgid "Product UoM"
+msgstr "وحدة قياس المنتج"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+#: model:ir.model.fields,field_description:ff_stock_transfer_request.field_ff_stock_transfer_ship_wizard_line__uom_id
+#: model:ir.model.fields,field_description:ff_stock_transfer_request.field_ff_stock_transfer_receive_wizard_line__uom_id
+msgid "UoM"
+msgstr "وحدة القياس"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+#: model:ir.model.fields,field_description:ff_stock_transfer_request.field_ff_stock_transfer_request_line__requested_qty
+msgid "Requested"
+msgstr "المطلوب"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+#: model:ir.model.fields,field_description:ff_stock_transfer_request.field_ff_stock_transfer_request_line__shipped_qty
+msgid "Shipped"
+msgstr "المشحون"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+#: model:ir.model.fields,field_description:ff_stock_transfer_request.field_ff_stock_transfer_request_line__received_qty
+msgid "Received"
+msgstr "المستلم"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+#: model:ir.model.fields,field_description:ff_stock_transfer_request.field_ff_stock_transfer_request_line__remaining_to_ship
+msgid "Remaining to Ship"
+msgstr "المتبقي للشحن"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+#: model:ir.model.fields,field_description:ff_stock_transfer_request.field_ff_stock_transfer_ship_wizard_line__quantity
+msgid "Quantity to Ship"
+msgstr "الكمية المطلوب شحنها"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+#: model:ir.model.fields,field_description:ff_stock_transfer_request.field_ff_stock_transfer_receive_wizard_line__quantity
+msgid "Quantity Received"
+msgstr "الكمية المستلمة"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+#: model:res.groups,name:ff_stock_transfer_request.group_transfer_request_user
+msgid "Transfer Request User"
+msgstr "مستخدم طلبات التحويل"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+#: model:res.groups,name:ff_stock_transfer_request.group_transfer_request_officer
+msgid "Transfer Request Warehouse Officer"
+msgstr "مسؤول مخزن طلبات التحويل"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+#: model:res.groups,name:ff_stock_transfer_request.group_transfer_request_receiver
+msgid "Transfer Request Receiving User"
+msgstr "مسؤول استلام طلبات التحويل"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+#: model:res.groups,name:ff_stock_transfer_request.group_transfer_request_manager
+msgid "Transfer Request Warehouse Manager"
+msgstr "مدير مخزن طلبات التحويل"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "This request is not awaiting shipment."
+msgstr "هذا الطلب لا ينتظر الشحن."
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "There is no outstanding shipment to receive."
+msgstr "لا توجد شحنة معلقة للاستلام."
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "Your user is not assigned a default warehouse. Configure Default Warehouse first."
+msgstr "لم يتم تعيين مخزن افتراضي للمستخدم. قم بإعداد المخزن الافتراضي أولاً."
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "Source and destination warehouses must be different."
+msgstr "يجب أن يختلف مخزن المصدر عن مخزن الوجهة."
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "Both warehouses must belong to the request company."
+msgstr "يجب أن ينتمي المخزنان إلى شركة الطلب."
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "You are not authorized to operate this warehouse."
+msgstr "ليس لديك صلاحية تنفيذ العمليات على هذا المخزن."
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "Add at least one product before submitting the request."
+msgstr "أضف منتجاً واحداً على الأقل قبل تقديم الطلب."
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "Only storable products can be transferred."
+msgstr "يمكن تحويل المنتجات القابلة للتخزين فقط."
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "Archived products cannot be requested."
+msgstr "لا يمكن طلب المنتجات المؤرشفة."
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "The unit of measure must be compatible with the product UoM."
+msgstr "يجب أن تكون وحدة القياس متوافقة مع وحدة قياس المنتج."
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "Requested quantities must be positive."
+msgstr "يجب أن تكون الكميات المطلوبة أكبر من صفر."
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "Requested quantity must be positive."
+msgstr "يجب أن تكون الكمية المطلوبة أكبر من صفر."
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "Only draft requests can be submitted."
+msgstr "يمكن تقديم الطلبات التي ما زالت في حالة مسودة فقط."
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "Configure a main source warehouse in Inventory settings."
+msgstr "قم بإعداد مخزن مصدر رئيسي من إعدادات المخزون."
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "Configure a valid transit location before shipping requests."
+msgstr "قم بإعداد موقع عبور صحيح قبل شحن الطلبات."
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "The selected warehouse does not have a configured operation type."
+msgstr "المخزن المحدد لا يحتوي على نوع عملية مُعد."
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "Shipment quantity for %s exceeds the outstanding request quantity."
+msgstr "كمية شحن %s تتجاوز الكمية المتبقية في الطلب."
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "Receipt quantity for %s exceeds the shipped quantity awaiting receipt."
+msgstr "كمية استلام %s تتجاوز الكمية المشحونة التي تنتظر الاستلام."
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "Enter at least one positive shipment quantity."
+msgstr "أدخل كمية شحن موجبة واحدة على الأقل."
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "Enter at least one positive receipt quantity."
+msgstr "أدخل كمية استلام موجبة واحدة على الأقل."
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "Only a warehouse manager can cancel a request."
+msgstr "مدير المخزن فقط يمكنه إلغاء الطلب."
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "A request with completed stock operations cannot be cancelled."
+msgstr "لا يمكن إلغاء طلب يحتوي على عمليات مخزون مكتملة."
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "Request submitted for warehouse preparation."
+msgstr "تم تقديم الطلب لتجهيز المخزن."
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "Request cancelled by an authorized manager."
+msgstr "تم إلغاء الطلب بواسطة مدير مصرح له."
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "Stock shipment %s was validated."
+msgstr "تم اعتماد شحنة المخزون %s."
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "Stock receipt %s was validated."
+msgstr "تم اعتماد استلام المخزون %s."
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "Odoo requires additional native stock information (for example lot or serial numbers). Open the linked picking and complete it there."
+msgstr "يتطلب Odoo معلومات مخزون إضافية (مثل أرقام التشغيلات أو الأرقام التسلسلية). افتح عملية النقل المرتبطة وأكملها هناك."
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "Shipment Quantity"
+msgstr "كمية الشحن"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "Receipt Quantity"
+msgstr "كمية الاستلام"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "My Requests"
+msgstr "طلباتي"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "Requests Requiring My Action"
+msgstr "طلبات تحتاج إلى إجراء مني"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "Open"
+msgstr "مفتوح"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "Status"
+msgstr "الحالة"
+
+#. module: ff_stock_transfer_request
+#: model:ir.model.fields,field_description:ff_stock_transfer_request.field_ff_stock_transfer_request__reorder_enabled
+msgid "Automatic Reorder"
+msgstr "إعادة الطلب تلقائياً"
+
+#. module: ff_stock_transfer_request
+#: model:ir.model.fields,field_description:ff_stock_transfer_request.field_ff_stock_transfer_request__reorder_interval_days
+msgid "Reorder Every (Days)"
+msgstr "إعادة الطلب كل (أيام)"
+
+#. module: ff_stock_transfer_request
+#: model:ir.model.fields,field_description:ff_stock_transfer_request.field_ff_stock_transfer_request__next_reorder_date
+msgid "Next Reorder Date"
+msgstr "تاريخ إعادة الطلب التالي"
+
+#. module: ff_stock_transfer_request
+#: model:ir.model.fields,field_description:ff_stock_transfer_request.field_ff_stock_transfer_request__reorder_parent_id
+msgid "Reordered From"
+msgstr "أُعيد طلبه من"
+
+#. module: ff_stock_transfer_request
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+msgid "Reorder"
+msgstr "إعادة الطلب"
+
+#. module: ff_stock_transfer_request
+#: model:ir.model.fields,field_description:ff_stock_transfer_request.field_stock_picking__transfer_request_stage
+msgid "Request Operation"
+msgstr "عملية الطلب"
+
+#. module: ff_stock_transfer_request
+#: model:ir.model.fields.selection,name:ff_stock_transfer_request.selection__stock_picking__transfer_request_stage__ship
+msgid "Shipment"
+msgstr "شحنة"
+
+#. module: ff_stock_transfer_request
+#: model:ir.model.fields.selection,name:ff_stock_transfer_request.selection__stock_picking__transfer_request_stage__receive
+msgid "Receipt"
+msgstr "استلام"
+
+#. module: ff_stock_transfer_request
+#: model:ir.model.fields.selection,name:ff_stock_transfer_request.selection__stock_picking__transfer_request_stage__return
+msgid "Return"
+msgstr "مرتجع"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+#: model:ir.model.fields,field_description:ff_stock_transfer_request.field_ff_stock_transfer_request__destination_warehouse_id
+msgid "Destination Warehouse"
+msgstr "مخزن الوجهة"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "Cancel this request?"
+msgstr "هل تريد إلغاء هذا الطلب؟"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "Configure Default Warehouse"
+msgstr "إعداد المخزن الافتراضي"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "Transit Location"
+msgstr "موقع العبور"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "Audit"
+msgstr "التدقيق"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "Cancel"
+msgstr "إلغاء"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "Ship"
+msgstr "شحن"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "Stock Transfer Request Line"
+msgstr "بند طلب تحويل المخزون"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "Prepare Stock Transfer Request Shipment"
+msgstr "تجهيز شحنة طلب تحويل المخزون"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "Confirm Stock Transfer Request Receipt"
+msgstr "تأكيد استلام طلب تحويل المخزون"
+
+#. module: ff_stock_transfer_request
+#: model:ir.model.fields,field_description:ff_stock_transfer_request.field_ff_stock_transfer_request__company_id
+msgid "Company"
+msgstr "الشركة"
+
+#. module: ff_stock_transfer_request
+#: model:ir.model.fields,field_description:ff_stock_transfer_request.field_ff_stock_transfer_ship_wizard__request_id
+#: model:ir.model.fields,field_description:ff_stock_transfer_request.field_ff_stock_transfer_receive_wizard__request_id
+msgid "Request"
+msgstr "الطلب"
+
+#. module: ff_stock_transfer_request
+#: model:ir.model.fields,field_description:ff_stock_transfer_request.field_ff_stock_transfer_ship_wizard__line_ids
+#: model:ir.model.fields,field_description:ff_stock_transfer_request.field_ff_stock_transfer_receive_wizard__line_ids
+msgid "Line"
+msgstr "البند"
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "Default source warehouse for stock transfer requests in this company."
+msgstr "مخزن المصدر الافتراضي لطلبات تحويل المخزون في هذه الشركة."
+
+#. module: ff_stock_transfer_request
+#: code:models/stock_transfer_request.py:1
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_list
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_request_search
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_ship_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.view_transfer_receive_wizard_form
+#: model_terms:ir.ui.view,arch_db:ff_stock_transfer_request.res_config_settings_view_form_stock_transfer_request
+msgid "Optional transit location. If empty, the company internal transit location is used."
+msgstr "موقع عبور اختياري. إذا تُرك فارغاً، فسيُستخدم موقع العبور الداخلي للشركة."

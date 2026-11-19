@@ -1,0 +1,10 @@
+<odoo>
+    <record id="view_transfer_ship_wizard_form" model="ir.ui.view">
+        <field name="name">ff.stock.transfer.ship.wizard.form</field><field name="model">ff.stock.transfer.ship.wizard</field>
+        <field name="arch" type="xml"><form string="Prepare &amp; Ship"><group><field name="request_id"/><field name="line_ids"><list editable="bottom" create="0"><field name="product_id" force_save="1"/><field name="uom_id" force_save="1"/><field name="quantity" force_save="1"/></list></field></group><footer><button name="action_ship" type="object" string="Ship" class="btn-primary"/><button special="cancel" string="Cancel"/></footer></form></field>
+    </record>
+    <record id="view_transfer_receive_wizard_form" model="ir.ui.view">
+        <field name="name">ff.stock.transfer.receive.wizard.form</field><field name="model">ff.stock.transfer.receive.wizard</field>
+        <field name="arch" type="xml"><form string="Confirm Receipt"><group><field name="request_id"/><field name="line_ids"><list editable="bottom" create="0"><field name="product_id" force_save="1"/><field name="uom_id" force_save="1"/><field name="quantity" force_save="1"/></list></field></group><footer><button name="action_receive" type="object" string="Confirm Receipt" class="btn-primary"/><button special="cancel" string="Cancel"/></footer></form></field>
+    </record>
+</odoo>
